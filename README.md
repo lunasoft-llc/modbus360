@@ -49,6 +49,26 @@ We provide portable `.zip` archives for Windows, Linux, and macOS. Simply downlo
 
 - [Latest Releases](https://github.com/lunasoft-llc/modbus360/releases)
 
+### macOS App and DMG
+
+The macOS workflow produces separate packages for Apple Silicon and Intel:
+
+- `Modbus360-macOS-Apple-Silicon-*.dmg`
+- `Modbus360-macOS-Intel-*.dmg`
+
+Open the correct DMG and drag `Modbus360.app` to Applications. Current packages
+are unsigned, so on first launch Control-click the app and choose **Open**.
+
+Maintainers can create the packages on macOS with:
+
+```bash
+chmod +x ./build-osx.sh
+./build-osx.sh --version 1.2.9
+```
+
+The **Build macOS App and DMG** GitHub Actions workflow creates the same files
+as downloadable workflow artifacts.
+
 ## 🛠️ Technical Stack
 
 - **Framework**: .NET 9.0 (Native AOT)
