@@ -1,7 +1,0 @@
-9b92ad5e10aabe0d18d4e772be1493ec3dcbfae09f40d866d5173a39dec5bb9f  Modbus360-Linux-x64-v1.2.9.tar.gz
-a80e780ba8c20e21a7d3b1ded2f60bc411a004d24da87be012fca143df7f3839  Modbus360-macOS-Apple-Silicon-v1.2.9.dmg
-83b95c3245dbeea60ee542b92862e280b7a5d611a9f370a129f88365ff341c47  Modbus360-macOS-Apple-Silicon-v1.2.9.zip
-8c90a61cc8a54e813166f7e777dbe00e0814e049f52314f86b6c264f0fedde4d  Modbus360-macOS-Intel-v1.2.9.dmg
-ae24f3bece3d0b4e21da2e63bf348807e702056f0cec8350aa12cf37ffedec45  Modbus360-macOS-Intel-v1.2.9.zip
-47460998d2fad28395967195dc7ab5cbc6295263b17a8676967f1419d2fbefdd  Modbus360-Setup-x64-v1.2.9.exe
-ddd39ff7d040a558016c7011898f1055f23c75d27d7db7f7b7acb5ec62736c70  Modbus360-Windows-x64-v1.2.9.zip
