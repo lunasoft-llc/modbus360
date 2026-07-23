@@ -2,21 +2,21 @@
 
 ![MODBUS360 Header](header.png)
 
-[![Version](https://img.shields.io/badge/version-1.2.1--AOT-blue?style=for-the-badge)](https://github.com/lunasoft-llc/modbus360/releases)
+[![Version](https://img.shields.io/badge/version-1.2.9-blue?style=for-the-badge)](https://github.com/lunasoft-llc/modbus360/releases)
 [![.NET](https://img.shields.io/badge/.NET-9.0-purple?style=for-the-badge)](https://dotnet.microsoft.com/download)
 [![Platform](https://img.shields.io/badge/platform-Windows%20|%20Linux%20|%20macOS-brightgreen?style=for-the-badge)](https://github.com/lunasoft-llc/modbus360/releases)
 
 ---
 
-**MODBUS 360** is a high-performance, Native AOT compiled industrial utility designed for real-time data monitoring and control. Engineered for low latency and high-stress environments, it provides engineers with a seamless way to visualize and interact with Modbus devices.
+**MODBUS 360** is a high-performance industrial utility designed for real-time data monitoring and control. Engineered for low latency and high-stress environments, it provides engineers with a seamless way to visualize and interact with Modbus devices.
 
 ## ✨ Key Features
 
 ### 🚀 Performance & Core
-- **Native AOT Compilation**: Blazing fast startup and ultra-low memory footprint (<50MB).
+- **Optimized Distribution**: Native AOT on Windows and trimmed self-contained packages on Linux and macOS.
 - **Multi-Protocol Support**: Full support for **Modbus TCP/IP**, **Modbus RTU (Serial)**, and **RTU over TCP**.
 - **Low Latency Engine**: Optimized for high-frequency polling with smart register grouping.
-- **Cross-Platform**: Native builds for Windows (x64), Linux (x64/arm64), and macOS (Apple Silicon/Intel).
+- **Cross-Platform**: Builds for Windows x64, Linux x64, and macOS Apple Silicon/Intel.
 
 ### 📊 Advanced Value Scaling
 Transform raw register values into meaningful engineering units using our built-in scaling engine:
@@ -45,7 +45,7 @@ Transform raw register values into meaningful engineering units using our built-
 Download and run the **[Modbus360_Setup.exe](https://github.com/lunasoft-llc/modbus360/releases)** for a professional installation experience with a desktop shortcut and administrative register control.
 
 ### Portable Versions
-We provide portable `.zip` archives for Windows, Linux, and macOS. Simply download, extract, and run—no dependencies required (Native AOT).
+We provide self-contained portable packages for Windows, Linux, and macOS. No separate .NET runtime installation is required.
 
 - [Latest Releases](https://github.com/lunasoft-llc/modbus360/releases)
 
@@ -71,7 +71,7 @@ as downloadable workflow artifacts.
 
 ## 🛠️ Technical Stack
 
-- **Framework**: .NET 9.0 (Native AOT)
+- **Framework**: .NET 9.0 (Native AOT or trimmed self-contained, depending on platform)
 - **UI Architecture**: Avalonia UI 11.3 (MVVM)
 - **Communication**: FluentModbus 5.3
 - **Visualization**: LiveChartsCore 2.0
